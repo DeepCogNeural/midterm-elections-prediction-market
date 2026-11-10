@@ -14,8 +14,17 @@ This repository holds the complete trade record of one account that traded contr
 | Return | +81.9% on 100,000 | same |
 | Max drawdown | 3.42% on daily values | `daily_value.csv` |
 | Account value at 6:00 pm ET on Nov 3, when the first polls closed | 131,430.65 (+31.4%) | `hourly_value_election.csv` |
+| Profit ÷ total traded value | 17.25% (81,892.29 ÷ 474,684.00) | `fills.csv` |
+| Sharpe ratio, as reported by the venue | 6.63 | venue account page; see note below |
+| Sharpe ratio, recomputed from the daily values | 4.76 annualised with √252 (5.73 with √365) | `daily_value.csv` |
 | Positions held to settlement | 29; all 29 paid 1 per share (181,885 in total) | `fills.csv` + `settlements.csv` |
 | Activity | 1,406 fills, 680 orders, 98 contracts in 68 races | `fills.csv` |
+
+Notes on the Sharpe ratio and the return figures:
+
+- The record covers 35 daily values, so there are only 34 daily returns. One of them is the settlement step of +36.7% (Nov 4 to the final value), which carries most of the mean. Trading had no fees. Read the Sharpe ratio with these limits in mind.
+- The venue's own formula for 6.63 is not published. The recomputed figure uses mean ÷ sample standard deviation of the 34 daily returns, with no risk-free rate.
+- +81.9% is profit on starting capital. 17.25% is profit divided by total traded value (the sum of price × shares over all fills), a different measure.
 
 Two notes on the "29 of 29" figure:
 

@@ -79,3 +79,13 @@ print(f'max drawdown on {len(daily)} daily values {mdd:.2%} (low on {at})')
 # 4. Value before polls closed (hourly value at 6:00 pm ET Nov 3)
 v = Decimal(next(r['total_value'] for r in hourly if r['time_utc'] == POLLS_CLOSE_UTC))
 print(f'value at {POLLS_CLOSE_UTC} (6:00 pm ET): {v:,.2f}, {(v - START) / START:+.1%}')
+
+# 5. Profit / traded value, and Sharpe ratio on daily returns
+import math, statistics
+volume = paid + received
+print(f'traded value {volume:,.2f}; profit / traded value {(end - START) / volume:.2%}')
+vals = [float(r['total_value']) for r in daily]
+rets = [b / a - 1 for a, b in zip(vals, vals[1:])]
+sh = statistics.mean(rets) / statistics.stdev(rets)
+print(f'daily returns {len(rets)}; largest {max(rets):+.1%}; '
+      f'Sharpe x sqrt(252) {sh * math.sqrt(252):.2f}, x sqrt(365) {sh * math.sqrt(365):.2f}')
