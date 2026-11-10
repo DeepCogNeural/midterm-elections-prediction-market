@@ -1,0 +1,30 @@
+settled_at_utc,settled_at_et,race,party,side,contract,exchange_id,market_id,market_result,shares,payout_per_share,payout
+2026-11-05T08:02:30.540Z,2026-11-05 03:02:30 EST,PA-08 House,Democratic Party,YES,PA-08 House: Democratic Party wins — YES,926,237,YES,260,1,260.00
+2026-11-05T08:03:33.961Z,2026-11-05 03:03:33 EST,Alabama Senate,Democratic Party,NO,Alabama Senate: Democratic Party wins — NO,941,252,NO,1906,1,1906.00
+2026-11-05T08:04:19.765Z,2026-11-05 03:04:19 EST,Oklahoma Senate,Republican Party,YES,Oklahoma Senate: Republican Party wins — YES,975,286,YES,320,1,320.00
+2026-11-05T08:06:07.423Z,2026-11-05 03:06:07 EST,Florida Senate,Democratic Party,NO,Florida Senate: Democratic Party wins — NO,1043,354,NO,1288,1,1288.00
+2026-11-05T08:06:10.884Z,2026-11-05 03:06:10 EST,Florida Senate,Republican Party,YES,Florida Senate: Republican Party wins — YES,1044,355,YES,995,1,995.00
+2026-11-05T08:06:19.080Z,2026-11-05 03:06:19 EST,Minnesota Senate,Democratic Party,YES,Minnesota Senate: Democratic Party wins — YES,1049,360,YES,278,1,278.00
+2026-11-05T08:06:21.248Z,2026-11-05 03:06:21 EST,Minnesota Senate,Republican Party,NO,Minnesota Senate: Republican Party wins — NO,1050,361,NO,7455,1,7455.00
+2026-11-05T08:06:40.452Z,2026-11-05 03:06:40 EST,Oklahoma Governor,Republican Party,YES,Oklahoma Governor: Republican Party wins — YES,1063,374,YES,307,1,307.00
+2026-11-05T08:06:49.132Z,2026-11-05 03:06:49 EST,Massachusetts Senate,Republican Party,NO,Massachusetts Senate: Republican Party wins — NO,1069,380,NO,432,1,432.00
+2026-11-05T08:06:57.021Z,2026-11-05 03:06:57 EST,Oklahoma Senate,Democratic Party,NO,Oklahoma Senate: Democratic Party wins — NO,1072,383,NO,6106,1,6106.00
+2026-11-05T08:07:01.412Z,2026-11-05 03:07:01 EST,Rhode Island Governor,Republican Party,NO,Rhode Island Governor: Republican Party wins — NO,1074,385,NO,1399,1,1399.00
+2026-11-05T08:07:04.769Z,2026-11-05 03:07:04 EST,Delaware Senate,Republican Party,NO,Delaware Senate: Republican Party wins — NO,1075,386,NO,3811,1,3811.00
+2026-11-05T08:07:07.523Z,2026-11-05 03:07:07 EST,Rhode Island Senate,Democratic Party,YES,Rhode Island Senate: Democratic Party wins — YES,1076,387,YES,17939,1,17939.00
+2026-11-05T12:01:40.858Z,2026-11-05 07:01:40 EST,IA-02 House,Democratic Party,YES,IA-02 House: Democratic Party wins — YES,904,215,YES,6115,1,6115.00
+2026-11-06T08:02:45.428Z,2026-11-06 03:02:45 EST,Hawaii Governor,Democratic Party,YES,Hawaii Governor: Democratic Party wins — YES,990,301,YES,1677,1,1677.00
+2026-11-06T08:02:54.200Z,2026-11-06 03:02:54 EST,MI-07 House,Democratic Party,YES,MI-07 House: Democratic Party wins — YES,1019,330,YES,4416,1,4416.00
+2026-11-06T08:02:56.120Z,2026-11-06 03:02:56 EST,MI-07 House,Republican Party,NO,MI-07 House: Republican Party wins — NO,1020,331,NO,16191,1,16191.00
+2026-11-06T08:03:09.759Z,2026-11-06 03:03:09 EST,Michigan Senate,Republican Party,NO,Michigan Senate: Republican Party wins — NO,1048,359,NO,17870,1,17870.00
+2026-11-06T12:00:46.729Z,2026-11-06 07:00:46 EST,Alabama Governor,Republican Party,YES,Alabama Governor: Republican Party wins — YES,845,156,YES,4013,1,4013.00
+2026-11-06T12:00:54.508Z,2026-11-06 07:00:54 EST,Georgia Governor,Republican Party,NO,Georgia Governor: Republican Party wins — NO,856,167,NO,17716,1,17716.00
+2026-11-06T12:00:57.611Z,2026-11-06 07:00:57 EST,Idaho Governor,Democratic Party,NO,Idaho Governor: Democratic Party wins — NO,859,170,NO,1299,1,1299.00
+2026-11-06T12:01:04.295Z,2026-11-06 07:01:04 EST,Nevada Governor,Democratic Party,YES,Nevada Governor: Democratic Party wins — YES,871,182,YES,5114,1,5114.00
+2026-11-06T12:01:05.979Z,2026-11-06 07:01:05 EST,Nevada Governor,Republican Party,NO,Nevada Governor: Republican Party wins — NO,872,183,NO,60,1,60.00
+2026-11-06T12:01:19.193Z,2026-11-06 07:01:19 EST,Maine Senate,Democratic Party,YES,Maine Senate: Democratic Party wins — YES,959,270,YES,750,1,750.00
+2026-11-06T12:01:20.295Z,2026-11-06 07:01:20 EST,Maine Senate,Republican Party,NO,Maine Senate: Republican Party wins — NO,960,271,NO,26283,1,26283.00
+2026-11-07T12:00:32.351Z,2026-11-07 07:00:32 EST,AZ-06 House,Democratic Party,YES,AZ-06 House: Democratic Party wins — YES,888,199,YES,1313,1,1313.00
+2026-11-07T12:00:39.926Z,2026-11-07 07:00:39 EST,MT-01 House,Democratic Party,YES,MT-01 House: Democratic Party wins — YES,912,223,YES,5586,1,5586.00
+2026-11-07T12:00:41.418Z,2026-11-07 07:00:41 EST,MT-01 House,Republican Party,NO,MT-01 House: Republican Party wins — NO,913,224,NO,30807,1,30807.00
+2026-11-07T12:00:47.215Z,2026-11-07 07:00:47 EST,MI-10 House,Republican Party,NO,MI-10 House: Republican Party wins — NO,1022,333,NO,179,1,179.00
